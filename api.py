@@ -13,7 +13,7 @@ class MemeService(Resource):
         random_meme = random.choice(memes)
         return random_meme
         
-api.add_resource(MemeService, '/meme')
+api.add_resource(MemeService, '/')
 
 
 
